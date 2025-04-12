@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Merge vs Quick Sort Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Comparison Quick and Merge</h1>
+  <div class="controls">
+    <button id="randomize">Randomize Array</button>
+    <button id="sort">Run</button>
+    <button id="pause">Pause</button>
+    <label for="speed">Speed:</label>
+    <input type="range" id="speed" min="1" max="100" value="5">
+    <span id="speedValue">5</span>
+  </div>
+
+  <div class="container">
+    <h3>Quick Sort</h3>
+    <div class="bars" id="quick-container"></div>
+
+    <h3>Merge Sort</h3>
+    <div class="bars" id="merge-container"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
